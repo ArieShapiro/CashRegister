@@ -1,26 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <title>Cash Register</title>
-  </head>
-  <body>
+  <link rel="stylesheet" href="styles.css" />
 
-
-
+  <title>Cash Register</title>
+  <style>
+    .inner{position:fixed;}
 
 
+.border{width:72px;height:52px;z-index:-1;top:0px;}
+
+
+.wrapper{width:70px;top:1px;left:1px;}
+
+
+.container {background:rgb(226,226,226);text-align:center;}
+
+.bcontainer{background:black;width:71px;height:41px;}
+.abc {
+    width: 60px;
+    border-bottom: 10px solid rgb(226,226,226);
+    border-right: 10px solid transparent;
+}
+
+/* .ab{    width: 61px;
+    border-bottom: 11px solid black;
+    border-right: 10px solid transparent;}​ */
+
+  </style>
+</head>
+
+<body>
+
+    <div>
+        <div class="wrapper inner">
+            <div class="abc"></div>
+            <div class="container">I AM A TAB<div>
+        </div>
+        <div class="border inner">
+            <div class="ab"></div>
+            <div class="bcontainer"><div>
+        </div>
+        </div>
 
 
 
 
 
 
-    <script src="main.js"></script>
-  </body>
+
+  <script src="main.js"></script>
+</body>
+
 </html>
